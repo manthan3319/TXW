@@ -13,7 +13,7 @@
     color: #B0AFCC !important;
 }
 :root {
-    --primaryColor: #09489d;
+    --primaryColor: #2e51ba;
     --bgBuleColor: #0F0E33;
     --textBuleColor: #282653;
     --lightbuleColor: #B0AFCC;
@@ -537,7 +537,7 @@ select {
     border: 0;
     border-radius: 40px;
     color: #ffffff;
-    background-color: #09489d;
+    background-color: #2e51ba;
     text-align: center;
     display: inline-block;
     text-transform: capitalize;
@@ -571,12 +571,12 @@ select {
 
 .btn-theme.btn-blue {
     color: #ffffff;
-    background-color: #09489d;
+    background-color: #2e51ba;
     box-shadow: 0 0 20px rgba(44, 62, 226, 0.06);
 }
 
 .btn-theme.btn-blue:hover {
-    background-color: #09489d;
+    background-color: #2e51ba;
     color: #ffffff;
 }
 
@@ -938,7 +938,7 @@ select {
 }
 
 .social_icons li a:hover {
-    background-color: #09489d;
+    background-color: #2e51ba;
 }
 
 .social_icons li a:hover::before {
@@ -981,20 +981,20 @@ select {
 
 .section_title h2 span,
 .section_text h3 span {
-    color: #09489d;
+    color: #2e51ba;
 }
 
 .section_title h2 span,
 .section_text h3 span {
-    color: #09489d;
+    color: #2e51ba;
 }
 
 /* .section_light .section_title h2 span,
 .section_light .section_text h3 span{
-      color: #09489d !important;
+      color: #2e51ba !important;
 } */
 
-.section_title h2:after {
+/* .section_title h2:after {
     content: '';
     background-image: url('../images/title_icon.svg');
     width: 88px;
@@ -1006,7 +1006,7 @@ select {
     bottom: -2px;
     left: -64px;
     z-index: -1;
-}
+} */
 
 .section_title.icon_none h2:after {
     display: none;
@@ -1053,7 +1053,7 @@ select {
 }
 
 .text_green {
-    color: #09489d !important;
+    color: #2e51ba !important;
 }
 
 i.text_normal_blue:before {
@@ -1567,12 +1567,12 @@ i.text_normal_blue:before {
     width: 80px;
     transition: all 0.9s;
     border-radius: 50%;
-    background-color: rgba(0, 230, 23, 0.5);
+    background-color: rgb(0 30 70 / 50%);
   }
   
   .e-top::before {
     content: "";
-    background-color: rgba(38, 199, 53, 0.47);
+    background-color: rgb(0 30 70 / 51%);
     position: absolute;
     top: 8px;
     left: 8px;
@@ -1585,7 +1585,7 @@ i.text_normal_blue:before {
   
   .e-top::after {
     content: "";
-    background-color: #26c735;
+    background-color: #001e46;
     position: absolute;
     top: 16px;
     left: 16px;
