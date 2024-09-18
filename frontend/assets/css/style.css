@@ -1152,6 +1152,26 @@
     -o-border-radius: 6px;
 }
 
+.page_banner_section2{
+    padding-top: 120PX !important;
+    min-height: auto !important;
+    
+}
+
+.section_title_main {
+    font-family: 'Montserrat';
+    font-size: 52px;
+    font-weight: 800 !important;
+    margin-bottom: 35px !important;
+    margin-top: 9px;
+}
+
+img.home_top_image {
+    width: 320px;
+    box-shadow: 2px 5px 42px 4px;
+    border-radius: 30px;
+}
+
 .page_banner_section .section_title h2:after {
     left: -30px;
     /* z-index: -1; */
