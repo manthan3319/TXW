@@ -29,6 +29,11 @@
 
 /*----------drodpown----------*/
 
+.card_images{
+    width: 25px;
+    filter: invert(1);
+}
+
 .nav-bar .dropdown-toggle::after {
     display: none;
 }
@@ -98,7 +103,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: #020d1c;
+    background-color: #09489d;
 }
 
 .header-part {
@@ -285,7 +290,7 @@
 
 .nav-bar.custom_navlink_brackets li.active a.has_bracket,
 .nav-bar.custom_navlink_brackets li:hover a.has_bracket {
-    color: #e6873c;
+    color: white;
 
 }
 
@@ -337,15 +342,15 @@
 
 .nav-bar li.active a:not(.btn-theme):after,
 .nav-bar li:hover a:not(.btn-theme):after {
-    background-color: #e6873c;
+    background-color: #09489d;
     width: 100%;
 }
 
 .nav-bar>ul>li>a:not(.btn-theme):hover,
 .nav-bar>ul>li>a:not(.btn-theme):focus,
 .nav-bar>ul>li.active>a:not(.btn-theme) {
-    color: #e6873c;
-    border-color: #e6873c;
+    color: #09489d;
+    border-color: #09489d;
 } */
 
 .menu-overlay-bg {
@@ -388,7 +393,7 @@
 .footer-wrapper .footer_lower_menu_part .menu .main_title {
     font-size: 20px;
     font-weight: 600;
-    color: #e6873c;
+    color: #09489d;
     position: relative;
 }
 
@@ -482,7 +487,7 @@
     transform: translateX(-50%);
     position: absolute;
     height: 1px;
-    background-color: #e6873c;
+    background-color: #09489d;
     display: block;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -665,7 +670,7 @@
 
 .hero_banner_section .hero_banner_text h1 span {
     font-weight: 700;
-    color: #e6873c;
+    color: #09489d;
     display: inline-block;
     /* min-height: 52px;
     height: 52px; */
@@ -675,7 +680,7 @@
     display: inline-block;
     /* min-height: 52px;
     height: 52px; */
-    border-right: 3px solid #e6873c;
+    border-right: 3px solid #09489d;
     padding-right: 4px;
 }
 
@@ -733,7 +738,7 @@
     width: 80px;
     height: 80px;
     border-radius: 80px 0px 80px 80px;
-    background-color: #e6873c;
+    background-color: #09489d;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -778,7 +783,7 @@
 }
 
 .our_expertise_card ul li a:hover i::before {
-    color: #e6873c;
+    color: #09489d;
 }
 
 .our_expertise_card .card_icon::after,
@@ -846,7 +851,7 @@
 }
 
 .work_method_card .card_icon i::before {
-    color: #e6873c;
+    color: #09489d;
 }
 
 /* .work_method_card .arrow_icon {
@@ -1118,7 +1123,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #0F0E33;
+    background-color: #000000;
     opacity: 0.8;
     z-index: -1;
 }
@@ -1131,12 +1136,12 @@
 }
 
 .page_banner_section .banner_text h1 span {
-    color: #e6873c;
+    color: #09489d;
 }
 
 .page_banner_section .banner_text hr {
     width: 64px;
-    border-color: #e6873c;
+    border-color: #09489d;
     opacity: 1;
     margin: 10px auto 60px;
     border-width: 3px;
@@ -1170,8 +1175,8 @@
     content: "";
     width: 140px;
     height: 140px;
-    border-top: 16px solid #e6873c;
-    border-right: 16px solid #e6873c;
+    border-top: 16px solid #09489d;
+    border-right: 16px solid #09489d;
     position: absolute;
     top: 0;
     right: 0;
@@ -1189,8 +1194,8 @@
     left: 0;
     right: unset;
     border-right: unset;
-    border-top: 16px solid #e6873c;
-    border-left: 16px solid #e6873c;
+    border-top: 16px solid #09489d;
+    border-left: 16px solid #09489d;
 }
 
 section .flex-row-reverse .section_image {
@@ -1567,7 +1572,7 @@ ul.gallery_items_flex {
 }
 
 .slider_custom_arrow .slick-arrow.bg_icon:hover {
-    background-color: #e6873c;
+    background-color: #09489d;
 }
 
 .slider_custom_arrow .slick-arrow.bg_icon:after {
@@ -1607,7 +1612,7 @@ ul.gallery_items_flex {
 }
 
 .looks_familiar_card {
-    background-color: #e6873c;
+    background-color: #09489d;
     max-width: 310px;
     padding: 80px 40px 80px 50px;
     position: absolute;
@@ -1751,9 +1756,9 @@ ul.gallery_items_flex {
 
 .custom_light_card {
     padding: 40px;
-    border-radius: 10px 110px 0px 120px;
+    border-radius: 10px 32px 10px 32px;
     transition: all 0.3s ease;
-    background: #00367d38 !important;
+    background: white !important;
     height: 100%;
     box-shadow: 1px 0px 19px -7px #00367d;
     border: 1px solid;
@@ -1789,7 +1794,7 @@ ul.gallery_items_flex {
 }
 
 .custom_light_card:hover {
-    background-color: #ffffff !important;
+    box-shadow: 0px 3px 11px 1px;
 }
 
 .custom_light_card.animate_icon i {
@@ -2082,8 +2087,8 @@ ul.gallery_items_flex {
 }
 .custom_pagination ul li a:hover,
 .custom_pagination ul li.active a{
-    background-color: #e6873c;
-    border-color: #e6873c;
+    background-color: #09489d;
+    border-color: #09489d;
     color: #ffffff;
 }
 
