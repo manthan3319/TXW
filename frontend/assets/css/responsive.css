@@ -623,8 +623,8 @@
 }
 @media (max-width: 991.98px) {
   section.section-ptb80 {
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
+    padding-top: 60px ;
+    padding-bottom: 60px ;
   }
 
   h1,
